@@ -36,3 +36,4 @@ jobs:
           publish_dir: ./out
           cname: false
           force_orphan: true
+          clean: true
