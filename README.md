@@ -2,6 +2,8 @@
 
 Una aplicación web moderna que te presenta una reflexión profunda cada día del año. Conecta con la filosofía estoica y sabiduría universal a través de un diseño minimalista y contemplativo.
 
+🔗 **[Ver la aplicación en vivo](https://trabukoboss.github.io/daily-profund-phrases/)**
+
 ![Next.js](https://img.shields.io/badge/Next.js-16.0-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19.2-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
@@ -21,15 +23,15 @@ Una aplicación web moderna que te presenta una reflexión profunda cada día de
 ## 🚀 Quick Start
 
 ### Requisitos previos
-- Node.js 20+ (recomendado 20.9.0 o superior)
+- Node.js 20.9.0+ (recomendado - ver `.nvmrc` para versión exacta)
 - npm, yarn, pnpm, o bun
 
 ### Instalación
 
 1. **Clona el repositorio**
 ```bash
-git clone https://github.com/tuusuario/daily-profound-phrases.git
-cd daily-profound-phrases
+git clone https://github.com/Trabukoboss/daily-profund-phrases.git
+cd daily-profund-phrases
 ```
 
 2. **Instala las dependencias**
@@ -151,7 +153,19 @@ La aplicación soporta cambio de tema mediante CSS variables. Usa `next-themes` 
 
 ## 🌐 Despliegue
 
-### Vercel (Recomendado)
+### GitHub Pages (Recomendado - Gratis)
+La aplicación está configurada para despliegue automático en GitHub Pages. Cada push a `main` triggeriza un build y despliega en:
+```
+https://tu-usuario.github.io/daily-profund-phrases/
+```
+
+**Workflow automático incluido** (`.github/workflows/deploy.yml`):
+- Build con Node.js 20
+- Exporta a sitio estático
+- Push automático a rama `gh-pages`
+- Configuración: Settings > Pages > Deploy from branch (gh-pages)
+
+### Vercel
 ```bash
 npm i -g vercel
 vercel
@@ -164,7 +178,7 @@ docker run -p 3000:3000 daily-profound-phrases
 ```
 
 ### Otras plataformas
-Compatible con cualquier plataforma que soporte Node.js 18+:
+Compatible con cualquier plataforma que soporte Node.js 20+:
 - Netlify
 - Railway
 - Render
