@@ -21,7 +21,7 @@ Una aplicación web moderna que te presenta una reflexión profunda cada día de
 ## 🚀 Quick Start
 
 ### Requisitos previos
-- Node.js 18+ o superior
+- Node.js 20+ (recomendado 20.9.0 o superior)
 - npm, yarn, pnpm, o bun
 
 ### Instalación
