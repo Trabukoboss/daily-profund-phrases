@@ -203,6 +203,4 @@ Si tienes preguntas o sugerencias, no dudes en abrir un issue o contactarme dire
 
 ---
 
-**Hecho con ❤️ para aquellos que buscan sabiduría diaria**
-
 *"La vida no examinada no vale la pena ser vivida." - Sócrates*
