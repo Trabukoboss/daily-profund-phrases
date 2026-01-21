@@ -1,0 +1,5 @@
+:HL["/daily-profund-phrases/_next/static/chunks/4d5ca0ef2eeb948a.css","style"]
+:HL["/daily-profund-phrases/_next/static/chunks/045d6a8269f32d16.css","style"]
+:HL["/daily-profund-phrases/_next/static/media/01e4147cff8141ee-s.p.7787e134.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/daily-profund-phrases/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"75i9lvX9exUQ940x2Vwke","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
