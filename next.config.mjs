@@ -7,7 +7,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  trailingSlash: true,
+  basePath: '/daily-profund-phrases',
+  assetPrefix: '/daily-profund-phrases/',
 }
 
 export default nextConfig
